@@ -27,3 +27,4 @@ jobs:
         with:
           artifacts: build/app/outputs/flutter-apk/app-release.apk
           tag: apk-v${{ github.run_number }}
+          
