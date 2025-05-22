@@ -16,9 +16,6 @@ jobs:
         with:
           flutter-version: '3.7.0'
 
-      - name: Create Flutter project structure
-        run: flutter create .
-
       - name: Flutter pub get
         run: flutter pub get
 
